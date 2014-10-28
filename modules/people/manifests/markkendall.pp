@@ -62,6 +62,20 @@ class people::markkendall {
   # Postgres
   include postgresql
 
+  # Pow
+  class {'pow':
+    host_dir => '/opt/boxen/data/pow/hosts',
+    log_dir => '/opt/boxen/log/pow',
+    dns_port => 30560,
+    http_port => 30559,
+    dst_port => 1999,
+    domains => 'pow',
+    ext_domains => undef,     # uses pow default, ""
+    timeout => undef,         # uses pow default, 900
+    workers => undef,         # uses pow default, 2
+    nginx_proxy => true
+  }
+
   # Rdio
   include rdio
 
