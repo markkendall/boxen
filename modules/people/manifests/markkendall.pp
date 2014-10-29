@@ -18,16 +18,19 @@ class people::markkendall {
     item     => "/Applications/Calendar.app",
     label    => "Calendar",
     action   => "add",
+    position => 1,
   }
   dockutil::item { 'Things':
     item     => "/Applications/Things.app",
     label    => "Things",
     action   => "add",
+    position => 2,
   }
   dockutil::item { 'Mailbox':
     item     => "/Applications/Mailbox (Beta).app",
     label    => "Mailbox",
     action   => "add",
+    position => 3,
   }
 
   # Alfred
