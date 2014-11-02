@@ -59,6 +59,9 @@ class people::markkendall {
   # Mailbox
   include mailbox
 
+  # MySQL
+  include mysql
+
   # 1Password
   include onepassword
 
