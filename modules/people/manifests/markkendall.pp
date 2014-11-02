@@ -85,6 +85,9 @@ class people::markkendall {
   # Rdio
   include rdio
 
+  # Skype
+  include skype
+
   # Things
   include things
 
