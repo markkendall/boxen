@@ -22,3 +22,6 @@
 # besides the modules that use it, you might want to override deeply nested hash
 # values, too!
 :merge_behavior: deeper
+
+# Temp fix for mysql, see https://github.com/boxen/puppet-mysql/issues/49
+mysql::socket: '%{::boxen::config::datadir}/mysql/socket'
