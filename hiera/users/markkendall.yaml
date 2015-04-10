@@ -4,4 +4,4 @@ mysql::config::port: 3306
 
 
 # Ruby configuration
-ruby::build::ensure: "v20141225"
+ruby::build::ensure: "v20150319zf"
