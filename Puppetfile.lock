@@ -66,7 +66,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.4.0)
+    hub (1.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-imagemagick
@@ -227,7 +227,7 @@ DEPENDENCIES
   gitx (>= 0)
   go (= 2.1.0)
   homebrew (= 1.11.2)
-  hub (= 1.4.0)
+  hub (= 1.4.1)
   imagemagick (>= 0)
   inifile (= 1.1.1)
   iterm2 (>= 0)
